@@ -1,0 +1,90 @@
+{
+  "propofol": {
+    "name": "Пропофол",
+    "group": "Гіпнотики",
+    "induction_mgkg": "1.5-2.5",
+    "maintenance_mcgkgmin": "50-150",
+    "elderly_adjustment": "1-1.5 мг/кг",
+    "pregnancy": "Можливе застосування в акушерській анестезії. Контроль гіпотензії.",
+    "warnings": [
+      "Гіпотензія",
+      "Апное",
+      "Відсутність аналгезії"
+    ],
+    "pearls": [
+      "Зменшити дозу при гіповолемії",
+      "Похилі пацієнти чутливіші"
+    ]
+  },
+
+  "ketamine": {
+    "name": "Кетамін",
+    "group": "Гіпнотики",
+    "induction_mgkg": "1-2",
+    "maintenance_mgkgh": "0.5-2",
+    "elderly_adjustment": "Обережно титрувати",
+    "pregnancy": "Високі дози можуть підвищувати тонус матки.",
+    "warnings": [
+      "Тахікардія",
+      "Гіпертензія",
+      "Психоміметичні реакції"
+    ],
+    "pearls": [
+      "Корисний при бронхоспазмі",
+      "Підходить при гіпотензії"
+    ]
+  },
+
+  "fentanyl": {
+    "name": "Фентаніл",
+    "group": "Опіоїди",
+    "bolus_mcgkg": "1-5",
+    "infusion_mcgkgh": "0.5-5",
+    "elderly_adjustment": "Зменшити дозу",
+    "pregnancy": "Можлива депресія дихання новонародженого.",
+    "warnings": [
+      "Респіраторна депресія",
+      "Брадикардія",
+      "Rigid chest syndrome"
+    ],
+    "pearls": [
+      "Синергія з пропофолом",
+      "Обережно при OSA"
+    ]
+  },
+
+  "rocuronium": {
+    "name": "Рокуроній",
+    "group": "Міорелаксанти",
+    "intubation_mgkg": "0.6-1.2",
+    "maintenance_mgkg": "0.1-0.2",
+    "elderly_adjustment": "Можливе подовження дії",
+    "pregnancy": "Може використовуватись при акушерській анестезії.",
+    "warnings": [
+      "Пролонгований блок",
+      "Необхідний TOF monitoring"
+    ],
+    "pearls": [
+      "Можливий reversal sugammadex",
+      "RSI альтернатива succinylcholine"
+    ]
+  },
+
+  "sugammadex": {
+    "name": "Сугамадекс",
+    "group": "Реверс",
+    "tof2_mgkg": "2",
+    "deepblock_mgkg": "4",
+    "immediate_mgkg": "16",
+    "elderly_adjustment": "Може бути повільніше відновлення",
+    "pregnancy": "Обмежені дані щодо безпеки.",
+    "warnings": [
+      "Брадикардія",
+      "Анафілаксія"
+    ],
+    "pearls": [
+      "Працює для rocuronium/vecuronium",
+      "Не працює для atracurium"
+    ]
+  }
+}
