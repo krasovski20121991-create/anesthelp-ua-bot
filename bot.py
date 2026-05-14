@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-WEB_APP_URL = "https://anesthelp-ua-bot-production.up.railway.app"
+WEB_APP_URL="https://anesthelp-ua-bot-production.up.railway.app"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
