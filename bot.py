@@ -28,6 +28,6 @@ app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
 
-if name == "main":
+if __name__ == "__main__":
     print("Bot started...")
     app.run_polling()
